@@ -1,0 +1,32 @@
+﻿  lccp.cpp
+D:\PCL 1.11.1\3rdParty\Boost\include\boost-1_74\boost\function_output_iterator.hpp(14): message : This header is deprecated. Use <boost/iterator/function_output_iterator.hpp> instead.
+D:\PCL 1.11.1\include\pcl-1.11\pcl\io\low_level_io.h(73,16): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PCL 1.11.1\include\pcl-1.11\pcl\io\low_level_io.h(78,16): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\point_cloud_color_handlers.h(611,11): warning C4996: 'pcl::visualization::PointCloudColorHandler<pcl::PCLPointCloud2>::getColor': use getColor() without parameters instead (It will be removed in PCL 1.12)
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\interactor_style.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\pcl_visualizer.h(1606,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\PCL 1.11.1\3rdParty\Boost\include\boost-1_74\boost\detail\iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\point_cloud_color_handlers.h(109,11): warning C4996: 'pcl::visualization::PointCloudColorHandler<PointT>::getColor': use getColor() without parameters instead (It will be removed in PCL 1.12)
+          with
+          [
+              PointT=pcl::PointXYZL
+          ]
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\point_cloud_color_handlers.h(107): message : 在编译 类 模板 成员函数“vtkSmartPointer<vtkDataArray> pcl::visualization::PointCloudColorHandler<PointT>::getColor(void) const”时
+          with
+          [
+              PointT=pcl::PointXYZL
+          ]
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\point_cloud_color_handlers.h(120): message : 查看对正在编译的函数 模板 实例化“vtkSmartPointer<vtkDataArray> pcl::visualization::PointCloudColorHandler<PointT>::getColor(void) const”的引用
+          with
+          [
+              PointT=pcl::PointXYZL
+          ]
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\point_cloud_color_handlers.h(506): message : 查看对正在编译的 类 模板 实例化“pcl::visualization::PointCloudColorHandler<PointT>”的引用
+          with
+          [
+              PointT=pcl::PointXYZL
+          ]
+D:\PCL 1.11.1\include\pcl-1.11\pcl\visualization\pcl_visualizer.h(906): message : 查看对正在编译的 类 模板 实例化“pcl::visualization::PointCloudColorHandlerLabelField<pcl::PointXYZL>”的引用
+D:\PCL 1.11.1\include\pcl-1.11\pcl\point_cloud.h(199,1): warning C4996: 'pcl::PointCloud<pcl::PointXYZL>::mapping_': rewrite your code to avoid using this protected field (It will be removed in PCL 1.12)
+D:\PCL 1.11.1\include\pcl-1.11\pcl\point_cloud.h(704,64): message : 参见对函数 "pcl::PointCloud<pcl::PointXYZL>::PointCloud(const pcl::PointCloud<pcl::PointXYZL> &)" 的引用
+  LCCP.vcxproj -> E:\paper code test\LCCP\x64\Debug\LCCP.exe
